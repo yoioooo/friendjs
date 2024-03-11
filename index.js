@@ -22,7 +22,7 @@ let successCount = 0;
 let watchStart = 0;
 
 const getGasLimit = () => {
-  const gasLimit = ['1.8999', '2.5999', '2.8999'];
+  const gasLimit = ['1.8999', '2.8999', '3.4999'];
   gasLevel = gasLevel > 2 ? 2 : gasLevel < 0 ? 0 : gasLevel;
   return gasLimit[gasLevel] || gasLimit[1];
 };
