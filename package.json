@@ -10,6 +10,10 @@
   "keywords": [],
   "author": "tao.yang",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoioooo/friendjs"
+  },
   "dependencies": {
     "@types/lodash": "^4.14.198",
     "@types/node": "^20.6.0",
